@@ -39,3 +39,12 @@ select * from products;
 select * from products 
 where stock > 15;
 set SQL_SAFE_UPDATES = 1;
+
+SELECT * FROM products
+WHERE price >= 1000000 AND price <= 25000000;
+
+SELECT * FROM products
+WHERE product_name != 'iPhone 15' AND stock > 0;
+
+SELECT * FROM products 
+WHERE category_id != 1 AND price > 500000
